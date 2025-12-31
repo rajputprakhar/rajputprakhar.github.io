@@ -60,5 +60,35 @@
     {% endif %}
   </div>
   {% include footer.html %}
+  <!--used particle from here-->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+      "color": { "value": "#000000" }, /* Color of dots */
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.5 },
+      "size": { "value": 3 },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#000000", /* Color of lines */
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": { "enable": true, "speed": 6 }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": { "enable": true, "mode": "grab" }, /* Mouse interaction */
+        "onclick": { "enable": true, "mode": "push" }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
 </body>
 </html>
