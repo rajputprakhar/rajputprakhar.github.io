@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Prakhar Rajput CV
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Github
+description: Personal website for Prakhar Rajput
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: "/neumorphism"
@@ -20,11 +20,11 @@ email: aryanrajput9911@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: rajputprakhar
+Github_username: rajputprakhar
 codepen_username: exampleUser
 dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+Linkedin_username: exampleUser
+Youtube_username: Prakhar Rajput
 
 # ABOUT ME SECTION
 # show_aboutme_card:
