@@ -17,40 +17,21 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
-  <style>
-    /* 1. Force particles to be a fixed background */
-    #particles-js {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      z-index: -1; /* This puts it BEHIND everything */
-      background-color: #f4f4f4; /* Light grey background color */
-    }
-
-    /* 2. Fix the layout container */
-    .layout {
-      position: relative;
-      z-index: 1; /* Ensures cards sit ON TOP of particles */
-    }
-  </style>
-
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
   <div id="particles-js"></div>
-
   <div id="preloader">
     <div class="load">
-      <hr /><hr /><hr /><hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
     </div>
   </div>
-
   {% include landing-page.html %}
-
   <div class="layout">
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
@@ -78,23 +59,36 @@
     </section>
     {% endif %}
   </div>
-
   {% include footer.html %}
-
+  <!--used particle from here-->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script>
-    /* Inside default.html script tag */
-/* Inside default.html */
-particlesJS("particles-js", {
-  "particles": {
-    /* ... */
-    "color": { "value": "#ffffff" }, /* Ensure this is WHITE */
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff", /* Ensure lines are WHITE */
-      /* ... */
-    /* ... rest of the code ... */
-  </script>
+
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+      "color": { "value": "#000000" }, /* Color of dots */
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.5 },
+      "size": { "value": 3 },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff", /* Color of lines */
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": { "enable": true, "speed": 6 }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": { "enable": true, "mode": "grab" }, /* Mouse interaction */
+        "onclick": { "enable": true, "mode": "push" }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
 </body>
 </html>
