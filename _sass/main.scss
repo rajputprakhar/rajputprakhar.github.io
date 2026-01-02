@@ -912,6 +912,7 @@ a {
 }
 
 /* Inside main.scss */
+/* Inside main.scss */
 #particles-js {
   position: fixed;
   width: 100%;
@@ -919,6 +920,6 @@ a {
   top: 0;
   left: 0;
   z-index: -1;
-  /* Change this from #f4f4f4 to your dark variable */
-  background-color: $bg-color; 
+  /* CHANGE THIS: was #f4f4f4 */
+  background-color: transparent; 
 }
