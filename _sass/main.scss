@@ -44,7 +44,6 @@ h1 {
   font-size: $font-size-h1;
   font-weight: $font-weight-strong;
   line-height: 2rem;
-  margin-bottom: 15px
 }
 
 p {
@@ -240,6 +239,7 @@ a {
 .landing-title {
   left: 0;
   margin: 0.5rem;
+  margin-bottom: 15px
   padding: 0.5rem;
   position: absolute;
   right: 0;
