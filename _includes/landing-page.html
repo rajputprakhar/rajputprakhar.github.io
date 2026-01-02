@@ -8,26 +8,27 @@
     align-items: center; /* Center horizontally */
     text-align: center;
     position: relative;
-    z-index: 10;
+    z-index: 10; /* Ensures text is clickable and on top */
   }
 
   .landing-title h1 {
-    font-size: 3rem; /* Default size */
+    font-size: 3rem;
     margin: 10px 0;
+    color: #000; /* Force text to be black (since bg is light) */
   }
 
-  /* Mobile Responsive Tweaks */
   @media (max-width: 768px) {
     .landing-title h1 {
-      font-size: 1.8rem; /* Smaller text on phones */
+      font-size: 1.8rem;
     }
     #hero {
-      padding: 0 20px; /* Add padding so text doesn't touch edges */
+      padding: 0 20px;
     }
   }
 </style>
 
-<div id="hero"> <div class="landing-title">
+<div id="hero">
+  <div class="landing-title">
     <h1>Hi, I'm
       <span class="highlight-title">Prakhar</span>,
     </h1>
