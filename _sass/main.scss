@@ -228,7 +228,7 @@ a {
 /* Landing Page */
 
 #landing {
-  background: transparent;
+  background: $bg-color;
   color: $text-color;
   display: flex;
   height: 100%;
@@ -245,7 +245,6 @@ a {
   right: 0;
   top: 40%;
 }
-
 
 .landing-icons {
   display: flex;
@@ -912,15 +911,12 @@ a {
   }
 }
 
-/* Inside main.scss */
-/* Inside main.scss */
 #particles-js {
-  position: fixed;
+  position: fixed; /* Stays in place when you scroll */
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
-  /* CHANGE THIS: was #f4f4f4 */
-  background-color: transparent; 
+  z-index: -1; /* Puts it BEHIND your text */
+  background-color: #f4f4f4; /* Optional: Base background color */
 }
