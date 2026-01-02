@@ -11,26 +11,26 @@
 - name: Bash
   weight: 3
 
-- name: Scrum
+- name: Java
   weight: 3
 
-- name: Travis CI
+- name: HTML
   weight: 1
 
-- name: Jenkins
+- name: python
   weight: 1
 
-- name: Chrome DevTools
+- name: SQL
   weight: 2
 
-- name: npm
+- name: CSS
   weight: 2
 
-- name: gulp
+- name: C++(basic)
   weight: 4
 
 - name: VS Code
   weight: 3
 
-- name: Postman
+- name: Bootstrap
   weight: 4
