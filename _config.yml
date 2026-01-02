@@ -80,7 +80,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: "I am currently based in Bremen and open for working student positions in Software Development & AI. I believe in shipping code that works and creating designs that inspire. If you need a developer who speaks C1 German, loves Python, and prefers building real tools over making slides, let's connect. Feel free to reach out via <a class=\"highlight-link\" href=\"mailto:aryanrajput9911@gmail.com\" target=\"_blank\" rel=\"noreferrer\">Email</a> or check out my latest code on <a class=\"highlight-link\" href=\"https://github.com/rajputprakhar\" target=\"_blank\" rel=\"noreferrer\">Github</a>."# GITHUB-METADATA
+contact_description: "I am currently based in Bremen(Germany) and open for working student positions in Software Development & AI. I believe in shipping code that works and creating designs that inspire. If you need a developer who speaks C1 German, loves Python, and prefers building real tools over making slides, let's connect. Feel free to reach out via <a class=\"highlight-link\" href=\"mailto:aryanrajput9911@gmail.com\" target=\"_blank\" rel=\"noreferrer\">Email</a> or check out my latest code on <a class=\"highlight-link\" href=\"https://github.com/rajputprakhar\" target=\"_blank\" rel=\"noreferrer\">Github</a>."# GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
 repository: longpdo/neumorphism
