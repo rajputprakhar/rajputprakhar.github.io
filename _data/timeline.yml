@@ -17,45 +17,43 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: University of Bremen
+  title-url: https://www.uni-bremen.de/
+  date: Apr 2024 - Current
+  subtitle: Bachelors in Computer Science (Informatik)
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
+- title: :prime Bremen Uni Bremen (Here Ahead)
+  title-url: https://www.primebremen.de/
+  date: Oct 2022 - Dec 2023
+  subtitle: Preparation Studies
+  timeline-side: left
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Language Pantheon
+  title-url: https://languagepantheon.com/
+  date: Aug 2021 - Apr 2022
+  subtitle: German Language
+  timeline-side: left
+
+- title: Guru Nanak Modern School
+  title-url: http://www.gnms.co.in/
+  date: Mar 2020 - Jul 2021
+  subtitle: Senior Secondary School Examination (Class - 12)
+  tags:
+    - tag: Physics
+    - tag: Chemistry
+    - tag: Mathematics
+    - tag: Informatics Practices
+  timeline-side: left
+
+- title: Guru Nanak Modern School
+  title-url: http://www.gnms.co.in/
+  date: Mar 2018 - May 2019
+  subtitle: Secondary School Examination (Class - 10th)
+  tags:
+    - tag: Science
+    - tag: Mathematics
+    - tag: Informatics Practices
+    - tag: Hindi
+    - tag: Social Studies
   timeline-side: left
