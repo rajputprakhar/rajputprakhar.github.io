@@ -911,12 +911,14 @@ a {
   }
 }
 
+/* Inside main.scss */
 #particles-js {
-  position: fixed; /* Stays in place when you scroll */
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1; /* Puts it BEHIND your text */
-  background-color: #f4f4f4; /* Optional: Base background color */
+  z-index: -1;
+  /* Change this from #f4f4f4 to your dark variable */
+  background-color: $bg-color; 
 }
