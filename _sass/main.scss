@@ -927,3 +927,56 @@ a {
   z-index: -1; /* Puts it BEHIND your text */
   background-color: #f4f4f4; /* Optional: Base background color */
 }
+
+// its just for the flies cards
+/* ========================
+   CARD FIREFLY STYLES
+   ======================== */
+
+/* 1. Ensure the Card contains the fireflies */
+.layout .card {
+  position: relative; /* Essential for containing the absolute SVG */
+  overflow: hidden;   /* Cuts off fireflies if they fly out of the card */
+}
+
+/* 2. Position the SVG layer behind the text but inside the card */
+.card-design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Behind the text */
+  opacity: 0.6; /* Slight transparency so they don't distract */
+  pointer-events: none; /* Clicks go through to the text */
+}
+
+/* 3. The Animation Logic */
+@keyframes firefly-path {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}
+
+@keyframes firefly-blink {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+#firefly1, #firefly2 {
+  fill: #ff073a; /* Your Red Primary Color */
+  animation: firefly-path 10s infinite linear, 
+             firefly-blink 3s infinite ease-in-out;
+}
+
+/* 4. The Movement Paths */
+#firefly1 {
+  /* A figure-8 path */
+  offset-path: path("M100,100 C200,50 300,50 400,100 S600,200 100,100");
+  animation-duration: 15s;
+}
+
+#firefly2 {
+  /* A circular path */
+  offset-path: path("M100,300 C100,100 500,100 500,300 S100,500 100,300");
+  animation-duration: 20s;
+}
