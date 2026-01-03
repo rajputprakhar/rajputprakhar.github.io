@@ -90,6 +90,13 @@ a {
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.layout .card:hover {
+  transform: translateY(-10px); /* Moves the card UP by 10px */
+  /* Creates a deeper, softer shadow to simulate height */
+  box-shadow: 15px 15px 30px #161718, -15px -15px 30px #404346; 
 }
 
 .layout .card .title {
