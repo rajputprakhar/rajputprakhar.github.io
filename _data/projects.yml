@@ -15,7 +15,7 @@
 
 - name: Real-Time AI Object Detector
   descr: "A high-performance computer vision application built with Python. It utilizes the state-of-the-art YOLOv8 model to identify and classify objects via live webcam feed in real-time. The system draws dynamic bounding boxes around detected elements like people, electronics, and household items with high precision."
-  demo: https://github.com/YOUR_USERNAME/real-time-object-detection
+  demo: https://github.com/rajputprakhar/real-time-object-detection
   tags:
     - tag: Python
     - tag: OpenCV
