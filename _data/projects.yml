@@ -13,14 +13,15 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Real-Time AI Object Detector
+  descr: "A high-performance computer vision application built with Python. It utilizes the state-of-the-art YOLOv8 model to identify and classify objects via live webcam feed in real-time. The system draws dynamic bounding boxes around detected elements like people, electronics, and household items with high precision."
+  demo: https://github.com/YOUR_USERNAME/real-time-object-detection
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Python
+    - tag: OpenCV
+    - tag: YOLOv8
+    - tag: Computer Vision
+    - tag: AI
 
 - name: project Y
   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
