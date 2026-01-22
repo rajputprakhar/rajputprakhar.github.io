@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real-Time Object Detection Project
-permalink: /object-detection/
+permalink: /my-project/
 ---
 
 # 👁️ Real-Time Object Detection System
