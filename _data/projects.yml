@@ -24,11 +24,11 @@
     - tag: AI
 
 - name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+  descr: "coming soon"
   demo: https://example.com/
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: x
+    - tag: x
 
 - name: project Z
-  descr: "You can also set a project without demo link and no tags"
+  descr: "coming soon"
